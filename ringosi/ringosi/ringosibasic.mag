@@ -1,0 +1,19 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1729047377
+<< checkpaint >>
+rect -1260 -1260 2550 2457
+use terbaru  x1
+timestamp 1728984722
+transform 1 0 57 0 1 53
+box -57 -53 373 1144
+use terbaru  x2
+timestamp 1728984722
+transform 1 0 487 0 1 53
+box -57 -53 373 1144
+use terbaru  x3
+timestamp 1728984722
+transform 1 0 917 0 1 53
+box -57 -53 373 1144
+<< end >>

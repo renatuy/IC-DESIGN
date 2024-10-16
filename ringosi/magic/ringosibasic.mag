@@ -1,0 +1,66 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1729060823
+<< locali >>
+rect -296 1168 1564 1208
+rect -296 1114 -226 1168
+rect 1472 1114 1564 1168
+rect -296 1106 1564 1114
+rect -312 82 1610 98
+rect -312 14 -214 82
+rect 1482 14 1610 82
+rect -312 -2 1610 14
+<< viali >>
+rect -226 1114 1472 1168
+rect -214 14 1482 82
+<< metal1 >>
+rect -296 1168 1564 1208
+rect -296 1114 -226 1168
+rect 1472 1114 1564 1168
+rect -296 1106 1564 1114
+rect -288 630 -82 642
+rect -288 562 -244 630
+rect -130 562 -82 630
+rect 134 576 432 618
+rect 1462 612 1566 632
+rect 852 574 1146 612
+rect -288 548 -82 562
+rect 1462 556 1480 612
+rect 1550 556 1566 612
+rect 1462 530 1566 556
+rect -312 82 1610 98
+rect -312 14 -214 82
+rect 1482 14 1610 82
+rect -312 -2 1610 14
+<< via1 >>
+rect -244 562 -130 630
+rect 1480 556 1550 612
+<< metal2 >>
+rect -288 630 1566 642
+rect -288 562 -244 630
+rect -130 612 1566 630
+rect -130 562 1480 612
+rect -288 556 1480 562
+rect 1550 556 1566 612
+rect -288 530 1566 556
+use terbaru  x1
+timestamp 1728984722
+transform 1 0 -223 0 1 51
+box -57 -53 373 1144
+use terbaru  x2
+timestamp 1728984722
+transform 1 0 487 0 1 53
+box -57 -53 373 1144
+use terbaru  x3
+timestamp 1728984722
+transform 1 0 1191 0 1 51
+box -57 -53 373 1144
+<< labels >>
+flabel metal1 -286 1184 -286 1184 0 FreeSans 1600 0 0 0 vdd
+port 0 nsew
+flabel metal1 -298 22 -298 22 0 FreeSans 1600 0 0 0 gnd
+port 1 nsew
+flabel metal2 1562 572 1562 572 0 FreeSans 1600 0 0 0 out
+port 2 nsew
+<< end >>
